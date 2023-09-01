@@ -12,112 +12,120 @@
     <!-- CSS FILE LINK  -->
     <link rel="stylesheet" href="css/style.css">
 
-  <!-- FAVICON LINK -->
-  <link rel="shortcut icon" type="image/x-icon" href="img/favicon.ico">
+    <!-- FAVICON LINK -->
+    <link rel="shortcut icon" type="image/x-icon" href="img/favicon.ico">
 </head>
 
 <body>
 
     <!-- HEADER SECTION STARTS  -->
-    <header>
+    <header class="header">
 
         <div class="user">
-            <img src="img/pic.png" alt="">
-            <h3 class="name">Onyinbrakeme ogbe</h3>
-            <p class="post">Software Engineer</p>
+            <img src="img/pic.jpg" alt="">
+            <h3>Onyinbrakeme ogbe</h3>
+            <p>Software Engineer</p>
         </div>
 
+        <!-- nav bar -->
         <nav class="navbar">
-            <ul id="nav-list">
-                <li><a href="#home">Home</a></li>
-                <li><a href="#about">About</a></li>
-                <!-- <li><a href="#services">Services</a></li> -->
-                <li><a href="#portfolio">Portfolio</a></li>
-                <li><a href="#contact">Contact</a></li>
-            </ul>
+            <a href="#home">Home</a>
+            <a href="#about">About</a>
+            <a href="#services">Services</a>
+            <a href="#portfolio">Portfolio</a>
+            <a href="#contact">Contact</a>
         </nav>
 
-        <!-- HAMBURGER MENU -->
-        <div id="menu" class="fas fa-bars"></div>
-
     </header>
+
     <!-- HEADER SECTION ENDS  -->
+
+    <!-- hamburger menu -->
+    <div id="menu-btn" class="fas fa-bars"></div>
+
+    <!-- theme toggle -->
+    <div id="theme-toggler" class="fas fa-sun"></div>
 
     <!-- HOME SECTION STARTS  -->
     <section class="home" id="home">
-        <h3>HI THERE !</h3>
-        <h1>I'm <span>Onyinbrakeme Ogbe</span></h1>
-        <p>
-            A seasoned Software Engineer with a solid track record of 3 years in the dynamic world of web
-            application design and development. My journey has taken me through the intricate landscapes of various
-            programming languages, including the formidable triumvirate of Java, JavaScript, and Python.
-        </p>
 
-        <p>
-            My expertise is not confined to a single phase of software development; I navigate the entire software
-            development life cycle with ease, ensuring a comprehensive grasp of every stage. I am, at heart, a problem
-            solver par excellence, thriving in result-oriented environments where challenges are opportunities in
-            disguise.
-        </p>
+        <div class="content">
+            <h3>Onyinbrakeme Ogbe</h3>
+            <p>I am a Software Engineer</p>
+            <a href="https://www.canva.com/design/DAFqwex-8Mg/4DO169kv71W6V5vpt2h8nQ/view?utm_content=DAFqwex-8Mg&utm_campaign=designshare&utm_medium=link&utm_source=publishsharelink"
+                class="btn">Download CV</a>
+        </div>
 
-        <p>
-            One of my defining qualities is an insatiable thirst for knowledge and growth. It's what keeps me on the
-            cutting edge of emerging technologies and industry trends. I believe in continuous learning as the gateway
-            to innovation.
-        </p>
+        <div class="share">
 
-        <p>
-            Throughout my professional voyage, I have proven my mettle as a team player. Even amidst tight deadlines, I
-            consistently deliver high-quality software solutions. Collaboration is an art, and I have honed it well.
-        </p>
+            <a href="https://www.linkedin.com/in/onyinbrakeme-ogbe-7089b285/" target="_blank">
+                <i class="fab fa-linkedin"></i>
+            </a>
+            <a href="https://www.github.com/oyinbra" target="_blank">
+                <i class="fab fa-github"></i>
+            </a>
+            <a href="https://www.twitter.com/0yinbra" target="_blank">
+                <i class="fab fa-twitter"></i>
+            </a>
 
-        <p>
-            In a world where technology evolves at the speed of thought, I stand ready, armed with knowledge and
-            experience, to take on the challenges of tomorrow.
-        </p>
+        </div>
 
-        <p>
-            Let's build the future together.
-        </p>
-
-        <a href="#about"><button class="btn">About Me <i class="fas fa-user"></i></button></a>
     </section>
     <!-- HOME SECTION ENDS  -->
 
     <!-- ABOUT SECTION STARTS  -->
     <section class="about" id="about">
         <h1 class="heading"> <span>About</span> Me </h1>
+
         <div class="row">
 
-            <div class="info">
-                <h3> <span> Name : </span> Onyinbrakeme Ogbe </h3>
-                <!-- <h3> <span> Age : </span> 20 </h3> -->
-                <h3> <span> Qualification : </span> B.Engr </h3>
-                <h3> <span> Post : </span> Software Engineer </h3>
-                <h3> <span> Language : </span> English </h3>
-                <a href="https://www.canva.com/design/DAFqwex-8Mg/4DO169kv71W6V5vpt2h8nQ/view?utm_content=DAFqwex-8Mg&utm_campaign=designshare&utm_medium=link&utm_source=publishsharelink"
-                    target="_blank"><button class="btn"> Download CV <i class="fas fa-download"></i> </button></a>
+            <div class="content">
+                <h3>My name is <span>Onyinbrakeme Ogbe</span></h3>
+                <p>
+                    I am a seasoned Software Engineer with a solid track record of 3 years in the dynamic world of web
+                    application design and development. My journey has taken me through the intricate landscapes of
+                    various
+                    programming languages, including the formidable triumvirate of Python, Java and JavaScript.
+                </p>
+
+                <p>
+                    One of my defining qualities is an insatiable thirst for knowledge and growth. It's what keeps me on
+                    the
+                    cutting edge of emerging technologies and industry trends. I believe in continuous learning as the
+                    gateway
+                    to innovation.
+                </p>
+
+                <p>
+                    In a world where technology evolves at the speed of thought, I stand ready, armed with knowledge and
+                    experience, to take on the challenges of tomorrow.
+                </p>
+
+                <p>
+                    Let's build the future together.
+                </p>
+                <a href="#" class="btn">Contact Me</a>
             </div>
 
-            <div class="counter">
+            <div class="box-container">
                 <div class="box">
-                    <span>3+</span>
-                    <h3>Years of Experience</h3>
+                    <h3>3+</h3>
+                    <p>Years of Experience</p>
                 </div>
 
                 <div class="box">
-                    <span>30+</span>
-                    <h3>Project Completed</h3>
+                    <h3>10+</h3>
+                    <p>Satified Clients</p>
                 </div>
 
                 <div class="box">
-                    <span>30+</span>
-                    <h3>Happy Clients</h3>
+                    <h3>190+</h3>
+                    <p>Working Hours</p>
                 </div>
 
                 <div class="box">
-                    <span>2+</span>
-                    <h3>Awards Won</h3>
+                    <h3>2+</h3>
+                    <p>Awards Won</p>
                 </div>
             </div>
 
@@ -127,36 +135,71 @@
     <!-- ABOUT SECTION ENDS  -->
 
     <!-- SERVICES SECTION STARTS  -->
-    <!-- <section class="services" id="services">
+    <section class="services" id="services">
 
-        <h1 class="heading"> Services</span> </h1>
+        <h1 class="heading"> My <span>Services</span></h1>
 
         <div class="box-container">
 
             <div class="box">
-                <i class="fas fa-graduation-cap"></i>
-                <span>2016</span>
-                <h3>Front End Development</h3>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati quos alias praesentium. Id autem
-                    provident laborum quae, distinctio eaque temporibus!</p>
+                <i class="fas fa-laptop-code"></i>
+                <h3>Software Development</h3>
+                <p>Tailored software solutions designed to address your unique business needs. From concept to
+                    deployment, I create software that aligns perfectly with your objectives.</p>
+            </div>
+
+            <div class="box">
+                <i class="fas fa-server"></i>
+                <h3>Backend Development</h3>
+                <p>Expertise in crafting robust backend systems, ensuring your applications run seamlessly. From server
+                    architecture to database design, I've got it covered.</p>
+            </div>
+
+            <div class="box">
+                <i class="fas fa-mobile"></i>
+                <h3>Responsive Website Development</h3>
+                <p>Create user-friendly websites that adjust effortlessly to different screens and devices, guaranteeing
+                    an excellent user experience and enhanced engagement, from mobiles to desktops.
+                </p>
+            </div>
+
+            <div class="box">
+                <i class="fas fa-cogs"></i>
+                <h3>DevOps Integration</h3>
+                <p>Seamlessly merge development and operations with DevOps practices. Achieve rapid deployments,
+                    enhanced collaboration, and streamlined workflows for your projects.</p>
+            </div>
+
+            <div class="box">
+                <i class="fas fa-chart-line"></i>
+                <h3>Code Optimization:</h3>
+                <p>Enhance the performance and efficiency of your existing software. I analyze and optimize code to
+                    deliver faster and more resource-efficient applications.</p>
+            </div>
+
+            <div class="box">
+                <i class="fas fa-hands-helping"></i>
+                <h3>Collaborative Partnership</h3>
+                <p>A collaborative approach, working closely with you and your team to understand your vision and
+                    objectives, ensuring your software aligns with your goals.</p>
             </div>
 
         </div>
-
-    </section> -->
+    </section>
     <!-- SERVICES SECTION ENDS  -->
 
     <!-- PORTFOLIO SECTION STARTS  -->
     <section class="portfolio" id="portfolio">
-        <h1 class="heading">My <span>Portfolio</span></h1>
+
+        <h1 class="heading"> My <span>Portfolio</span></h1>
 
         <div class="box-container">
 
             <div class="box">
                 <a href="https://github.com/Oyinbra/nvim-config">
                     <img src="img/img1.png" alt="">
-                    <div class="overlay">
-                        <h3 class="project-name">Code Editor for NEOVIM</h3>
+                    <div class="content">
+                        <h3>Code Editor for NEOVIM</h3>
                     </div>
                 </a>
             </div>
@@ -164,8 +207,8 @@
             <div class="box">
                 <a href="https://github.com/Oyinbra/nvim-config">
                     <img src="img/img1.png" alt="">
-                    <div class="overlay">
-                        <h3 class="project-name">Code Editor for NEOVIM</h3>
+                    <div class="content">
+                        <h3>Code Editor for NEOVIM</h3>
                     </div>
                 </a>
             </div>
@@ -173,8 +216,8 @@
             <div class="box">
                 <a href="https://github.com/Oyinbra/nvim-config">
                     <img src="img/img1.png" alt="">
-                    <div class="overlay">
-                        <h3 class="project-name">Code Editor for NEOVIM</h3>
+                    <div class="content">
+                        <h3>Code Editor for NEOVIM</h3>
                     </div>
                 </a>
             </div>
@@ -182,14 +225,15 @@
             <div class="box">
                 <a href="https://github.com/Oyinbra/nvim-config">
                     <img src="img/img1.png" alt="">
-                    <div class="overlay">
-                        <h3 class="project-name">Code Editor for NEOVIM</h3>
+                    <div class="content">
+                        <h3>Code Editor for NEOVIM</h3>
                     </div>
                 </a>
             </div>
 
             <!-- Add more portfolio items as needed -->
         </div>
+
     </section>
     <!-- PORTFOLIO SECTION ENDS  -->
 
@@ -203,18 +247,6 @@
 
         <div class="row">
 
-            <div class="content">
-
-                <h3 class="title">Contact Info</h3>
-
-                <div class="info">
-                    <h3> <i class="fas fa-envelope"></i> onyinbra@gmail.com </h3>
-                    <h3> <i class="fas fa-phone"></i> +234-802-210-7402 </h3>
-                    <h3> <i class="fas fa-map-marker-alt"></i> Lagos, Nigeria </h3>
-                </div>
-
-            </div>
-
             <form name="contact" method="POST" data-netlify="true" action="">
                 <input type="text" placeholder="name" class="box">
                 <input type="email" placeholder="email" class="box">
@@ -223,51 +255,8 @@
                 <button type="submit" class="btn"> Send <i class="fas fa-paper-plane"></i> </button>
             </form>
 
-            <!-- SOCIAL MEDIA LINKS -->
-            <div class="social-links">
-
-                <div class="icon twitter">
-                    <div class="tooltip">Twitter</div>
-                    <a href="https://twitter.com/0yinbra" target="_blank" rel="noopener noreferrer">
-                        <span><i class="fab fa-twitter"></i></span>
-                    </a>
-                </div>
-                <!-- <div class="icon facebook">
-                    <div class="tooltip">Facebook</div>
-                    <span><i class="fab fa-facebook"></i></span>
-                </div> -->
-                <!-- <div class="icon instagram">
-                    <div class="tooltip">Instagram</div>
-                    <span><i class="fab fa-instagram"></i></span>
-                </div> -->
-                <div class="icon github">
-                    <div class="tooltip">Github</div>
-                    <a href="https://github.com/oyinbra" target="_blank" rel="noopener noreferrer">
-                        <span><i class="fab fa-github"></i></span>
-                    </a>
-                </div>
-                <!-- <div class="icon youtube">
-                    <div class="tooltip">YouTube</div>
-                    <span><i class="fab fa-youtube"></i></span>
-                </div> -->
-                <div class="icon linkedin">
-                    <div class="tooltip">LinkedIn</div>
-                    <a href="https://www.linkedin.com/in/onyinbrakeme-ogbe-7089b285/" target="_blank"
-                        rel="noopener noreferrer">
-                        <span><i class="fab fa-linkedin"></i></span>
-                        </a>
-                </div>
-
-            </div>
-
     </section>
     <!-- CONTACT SECTION ENDS  -->
-
-    <!-- SCROLL TOP BUTTON START  -->
-    <a href="#home" class="top">
-        <img src="img/scroll-top-img.png" alt="">
-    </a>
-    <!-- SCROLL TOP BUTTON ENDS  -->
 
 
     <!-- JQUERY CDN LINK  -->
@@ -275,7 +264,6 @@
 
     <!-- CUSTOM JS FILE LINK  -->
     <script src="js/script.js"></script>
-
 
 </body>
 
