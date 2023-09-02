@@ -100,7 +100,7 @@ section {
     text-align: center;
 }
 
-/* Styles for user information in the header */
+/* STYLES FOR USER INFORMATION IN THE HEADER */
 .header .user img {
     height: 18rem;
     width: 18rem;
@@ -120,7 +120,7 @@ section {
     color: var(--green);
 }
 
-/* Styles for navigation links in the header */
+/* STYLES FOR NAVIGATION LINKS IN THE HEADER */
 .header .navbar a {
     margin: 1.5rem 0;
     padding: 0.7rem;
@@ -135,124 +135,107 @@ section {
     box-shadow: var(--box-shadow-inset);
 }
 
-/* HEADER SECTION ENDS */
-
-
-/* MENU BUTTON STARTS */
-
-/* Styling for the menu button */
+/* STYLING FOR THE MENU BUTTON */
 #menu-btn {
     position: fixed;
-    top: 1.5rem; /* Position from the top */
-    left: 2rem; /* Position from the left */
-    z-index: 1000; /* Layering order */
-    height: 5rem; /* Height of the button */
-    width: 5rem; /* Width of the button */
-    line-height: 5rem; /* Center content vertically */
-    border-radius: 50%; /* Create a circular shape */
-    font-size: 2rem; /* Font size */
-    cursor: pointer; /* Cursor style on hover */
-    box-shadow: var(--box-shadow); /* Shadow effect */
-    text-align: center; /* Center text */
-    color: var(--black); /* Text color */
-    background: var(--bg-color); /* Background color */
-    display: none; /* Initially hidden */
+    top: 1.5rem;
+    left: 2rem;
+    z-index: 1000;
+    height: 5rem;
+    width: 5rem;
+    line-height: 5rem;
+    border-radius: 50%;
+    font-size: 2rem;
+    cursor: pointer;
+    box-shadow: var(--box-shadow);
+    text-align: center;
+    color: var(--black);
+    background: var(--bg-color);
+    display: none;
 }
 
-/* Styling for the menu button on hover */
 #menu-btn:hover {
-    color: var(--green); /* Text color on hover */
-    box-shadow: var(--box-shadow-inset); /* Inset shadow on hover */
+    color: var(--green);
+    box-shadow: var(--box-shadow-inset);
 }
 
-/* Styling for the theme toggler button */
 #theme-toggler {
     position: fixed;
-    top: 1.5rem; /* Position from the top */
-    right: 2rem; /* Position from the right */
-    z-index: 1000; /* Layering order */
-    height: 5rem; /* Height of the button */
-    width: 5rem; /* Width of the button */
-    line-height: 5rem; /* Center content vertically */
-    border-radius: 50%; /* Create a circular shape */
-    font-size: 2rem; /* Font size */
-    cursor: pointer; /* Cursor style on hover */
-    box-shadow: var(--box-shadow); /* Shadow effect */
-    text-align: center; /* Center text */
-    color: var(--black); /* Text color */
-    background: var(--bg-color); /* Background color */
+    top: 1.5rem;
+    right: 2rem;
+    z-index: 1000;
+    height: 5rem;
+    width: 5rem;
+    line-height: 5rem;
+    border-radius: 50%;
+    font-size: 2rem;
+    cursor: pointer;
+    box-shadow: var(--box-shadow);
+    text-align: center;
+    color: var(--black);
+    background: var(--bg-color);
 }
 
-/* Styling for the theme toggler button on hover */
 #theme-toggler:hover {
-    color: var(--green); /* Text color on hover */
-    box-shadow: var(--box-shadow-inset); /* Inset shadow on hover */
+    color: var(--green);
+    box-shadow: var(--box-shadow-inset);
 }
 
-/* HOME SECTION STARTS */
-
-/* Styling for the 'home' section */
+/* HOME SECTION */
 .home {
-    display: flex; /* Use flexbox for layout */
-    justify-content: center; /* Center content horizontally */
-    flex-flow: column; /* Arrange items in a column */
-    align-items: center; /* Center content vertically */
-    text-align: center; /* Center text */
+    display: flex;
+    justify-content: center;
+    flex-flow: column;
+    align-items: center;
+    text-align: center;
 }
 
-/* Styling for the content within the 'home' section */
 .home .content h3 {
-    font-size: 7rem; /* Font size for heading */
-    color: var(--black); /* Text color */
-    line-height: 1.1; /* Line height */
-    text-transform: uppercase; /* Uppercase text */
+    font-size: 7rem;
+    color: var(--black);
+    line-height: 1.1;
+    text-transform: uppercase;
 }
 
 .home .content p {
-    font-size: 2rem; /* Font size for paragraph */
-    color: var(--green); /* Text color */
-    padding-bottom: 0.5rem; /* Spacing at the bottom */
+    font-size: 2rem;
+    color: var(--green);
+    padding-bottom: 0.5rem;
 }
 
-/* Styling for the 'share' section */
 .home .share {
     position: relative;
-    top: 10rem; /* Position from the top */
-    border-radius: 0.5rem; /* Rounded corners */
-    box-shadow: var(--box-shadow); /* Shadow effect */
-    padding: 1rem; /* Padding around content */
+    top: 10rem;
+    border-radius: 0.5rem;
+    box-shadow: var(--box-shadow);
+    padding: 1rem;
 }
 
-/* Styling for social media icons within the 'share' section */
 .home .share i {
-    height: 5rem; /* Height of icon */
-    width: 5rem; /* Width of icon */
-    line-height: 5rem; /* Center content vertically */
-    font-size: 2rem; /* Font size */
-    color: var(--black); /* Text color */
-    margin: 0 0.3rem; /* Margin around icons */
-    border-radius: 0.5rem; /* Rounded corners */
-    box-shadow: var(--box-shadow); /* Shadow effect */
+    height: 5rem;
+    width: 5rem;
+    line-height: 5rem;
+    font-size: 2rem;
+    color: var(--black);
+    margin: 0 0.3rem;
+    border-radius: 0.5rem;
+    box-shadow: var(--box-shadow);
 }
 
-/* Styling for social media icons on hover within the 'share' section */
 .home .share i:hover {
-    box-shadow: var(--box-shadow-inset); /* Inset shadow on hover */
-    color: var(--green); /* Text color on hover */
+    box-shadow: var(--box-shadow-inset);
+    color: var(--green);
 }
-/* HOME SECTION ENDS */
 
-/* ABOUT SECTION STARTS */
-
-/* Styles for the row containing about section */
+/* STYLES FOR THE ROW CONTAINING ABOUT SECTION */
 .about .row {
     display: flex;
     align-items: center;
-    flex-wrap: wrap-reverse; /* Reverse wrapping for responsive design */
+    flex-wrap: wrap-reverse;
     gap: 2rem;
 }
 
-/* Styles for the containers within the about section */
+/* STYLES FOR THE CONTAINERS WITHIN THE ABOUT SECTION */
 .about .row .box-container {
     flex: 1 1 40rem;
     display: flex;
@@ -260,46 +243,46 @@ section {
     gap: 1.5rem;
 }
 
-/* Styles for individual boxes within the container */
+/* STYLES FOR INDIVIDUAL BOXES WITHIN THE CONTAINER */
 .about .row .box-container .box {
     flex: 1 1 18rem;
     padding: 2rem;
     border-radius: 0.5rem;
-    box-shadow: var(--box-shadow); /* Box shadow for a subtle effect */
+    box-shadow: var(--box-shadow);
 }
 
-/* Styles for headings within the boxes */
+/* STYLES FOR HEADINGS WITHIN THE BOXES */
 .about .row .box-container .box h3 {
     font-size: 4rem;
     color: var(--black);
     line-height: 1.1;
 }
 
-/* Styles for paragraphs within the boxes */
+/* STYLES FOR PARAGRAPHS WITHIN THE BOXES */
 .about .row .box-container .box p {
     font-size: 1.5rem;
     color: var(--light-color);
     padding: 0.5rem 0;
 }
 
-/* Styles for the content column within the about section */
+/* STYLES FOR THE CONTENT COLUMN WITHIN THE ABOUT SECTION */
 .about .row .content {
     flex: 1 1 40rem;
 }
 
-/* Styles for headings within the content column */
+/* STYLES FOR HEADINGS WITHIN THE CONTENT COLUMN */
 .about .row .content h3 {
     font-size: 2.5rem;
     color: var(--black);
     line-height: 1.8;
 }
 
-/* Styles for the span element within the headings */
+/* STYLES FOR THE SPAN ELEMENT WITHIN THE HEADINGS */
 .about .row .content h3 span {
-    color: var(--green); /* A specific color for the span */
+    color: var(--green);
 }
 
-/* Styles for paragraphs within the content column */
+/* STYLES FOR PARAGRAPHS WITHIN THE CONTENT COLUMN */
 .about .row .content p {
     font-size: 1.7rem;
     color: var(--light-color);
@@ -307,19 +290,14 @@ section {
     padding: 1rem 0;
 }
 
-/* ABOUT SECTION ENDS */
-
-
-/* SERVICES SECTION STARTS */
-
-/* Styles for the container within the services section */
+/* STYLES FOR THE CONTAINER WITHIN THE SERVICES SECTION */
 .services .box-container {
     display: grid;
     gap: 2rem;
-    grid-template-columns: repeat(auto-fit, minmax(27rem, 1fr)); /* Responsive grid layout */
+    grid-template-columns: repeat(auto-fit, minmax(27rem, 1fr));
 }
 
-/* Styles for individual boxes within the container */
+/* STYLES FOR INDIVIDUAL BOXES WITHIN THE CONTAINER */
 .services .box-container .box {
     padding: 2rem;
     border-radius: 0.5rem;
@@ -329,125 +307,107 @@ section {
     overflow: hidden;
 }
 
-/* Styles for icon elements within the boxes */
+/* STYLES FOR ICON ELEMENTS WITHIN THE BOXES */
 .services .box-container .box i {
     font-size: 4rem;
-    color: #fff; /* White color for icons */
+    color: #fff;
     padding-bottom: 5rem;
 }
 
-/* Styles for headings within the boxes */
+/* STYLES FOR HEADINGS WITHIN THE BOXES */
 .services .box-container .box h3 {
     font-size: 2rem;
     padding-bottom: 1rem;
     color: var(--black);
 }
 
-/* Styles for paragraphs within the boxes */
+/* STYLES FOR PARAGRAPHS WITHIN THE BOXES */
 .services .box-container .box p {
     font-size: 1.4rem;
     color: var(--light-color);
     line-height: 1.8;
 }
 
-/* Styles for a decorative element before the boxes */
+/* STYLES FOR A DECORATIVE ELEMENT BEFORE THE BOXES */
 .services .box-container .box::before {
     content: '';
     position: absolute;
     top: 0; left: 0;
     height: 100%; width: 100%;
-    background: var(--green); /* Green background for the circle */
+    background: var(--green);
     z-index: -1;
-    clip-path: circle(9rem at 5% 0%); /* Clip path for a circular effect */
-    transition: 0.3s linear; /* Smooth transition effect */
+    clip-path: circle(9rem at 5% 0%);
+    transition: 0.3s linear;
 }
 
-/* Styles for the hover effect on the circular element */
 .services .box-container .box:hover::before {
-    clip-path: circle(100%); /* Expands the circle on hover */
+    clip-path: circle(100%);
 }
 
-/* Styles for changing text color on hover */
 .services .box-container .box:hover > * {
-    color: #fff; /* White text color on hover */
+    color: #fff;
 }
 
-/* SERVICES SECTION ENDS */
-
-
-/* PORTFOLIO SECTION STARTS */
-
-/* Styles for the container within the portfolio section */
+/* STYLES FOR THE CONTAINER WITHIN THE PORTFOLIO SECTION */
 .portfolio .box-container {
     display: grid;
     gap: 2rem;
-    grid-template-columns: repeat(auto-fit, minmax(27rem, 1fr)); /* Responsive grid layout */
+    grid-template-columns: repeat(auto-fit, minmax(27rem, 1fr));
 }
 
-/* Styles for individual boxes within the portfolio section */
+/* STYLES FOR INDIVIDUAL BOXES WITHIN THE PORTFOLIO SECTION */
 .portfolio .box-container .box {
     height: 25rem;
     position: relative;
     border-radius: 0.5rem;
     overflow: hidden;
-    box-shadow: var(--box-shadow); /* Box shadow for a subtle effect */
+    box-shadow: var(--box-shadow);
     border: 1rem solid transparent;
 }
 
-/* Styles for images within the portfolio boxes */
 .portfolio .box-container .box img {
     height: 100%; width: 100%;
-    object-fit: cover; /* Maintain aspect ratio for images */
+    object-fit: cover;
 }
 
-/* Styles for content overlay within the portfolio boxes */
 .portfolio .box-container .box .content {
     position: absolute;
     top: 0; left: 0;
     height: 100%; width: 100%;
-    background: var(--bg-color); /* Background color for the overlay */
+    background: var(--bg-color);
     display: grid;
     place-items: center;
-    transform: scale(0); /* Initial scale to hide content */
+    transform: scale(0);
 }
 
-/* Hover effect to scale and reveal content */
 .portfolio .box-container .box:hover .content {
-    transform: scale(1); /* Scale to 100% on hover */
+    transform: scale(1);
 }
 
-/* Styles for headings within the content overlay */
 .portfolio .box-container .box .content h3 {
     font-size: 2.5rem;
     color: var(--black);    
     text-transform: uppercase;
-    transform: relative(-5rem); /* Initial position for animation */
-    opacity: 0; /* Initial opacity to hide */
-    transition-delay: 0.3s; /* Delay for smoother transition */
+    transform: relative(-5rem);
+    opacity: 0;
+    transition-delay: 0.3s;
     text-align: center;
 }
 
-/* Hover effect to move heading and reveal */
 .portfolio .box-container .box:hover .content h3 {
-    transform: translateY(0.1rem); /* Move heading slightly */
-    opacity: 1; /* Reveal with full opacity */
+    transform: translateY(0.1rem);
+    opacity: 1;
 }
 
-/* PORTFOLIO SECTION ENDS */
-
-
-/* CONTACT SECTION STARTS */
-
-/* Styles for the contact form */
+/* STYLES FOR THE CONTACT FORM */
 .contact form {
     margin: 1rem auto;
     max-width: 70rem;
     border-radius: 0.5rem;
-    box-shadow: var(--box-shadow); /* Box shadow for the form */
+    box-shadow: var(--box-shadow);
     padding: 2rem;
 }
 
-/* Styles for input boxes within the contact form */
 .contact form .box {
     padding: 1rem 1.5rem;
     width: 100%;
@@ -455,71 +415,59 @@ section {
     font-size: 1.6rem;
     color: var(--black);
     margin: 0.7rem 0;
-    box-shadow: var(--box-shadow); /* Box shadow for input boxes */
+    box-shadow: var(--box-shadow);
     text-transform: none;
     background: none;
 }
 
-/* Styles for the textarea in the contact form */
 .contact form textarea {
     height: 15rem;
-    resize: none; /* Disable textarea resizing */
+    resize: none;
 }
 
-/* CONTACT SECTION ENDS */
-
-
-/* MEDIA QUERIES STARTS */
-
-/* Media query for screens up to 991px width */
+/* MEDIA QUERY FOR SCREENS UP TO 991PX WIDTH */
 @media (max-width: 991px) {
     html {
-        font-size: 55%; /* Adjust font size for smaller screens */
+        font-size: 55%;
     }
-    
+
     body {
         padding-left: 0;
     }
-    
+
     .header {
-        left: -110%; /* Move header off-screen */
+        left: -110%;
     }
 
-    /* Styles for active header */
     .header.active {
         left: 0%;
-        transition: 0.4s linear; /* Smooth transition effect */
+        transition: 0.4s linear;
     }
 
     #menu-btn {
-        display: initial; /* Display menu button */
+        display: initial;
     }
 }
 
-/* Media query for screens up to 450px width */
+/* MEDIA QUERY FOR SCREENS UP TO 450PX WIDTH */
 @media (max-width: 450px) {
     html {
-        font-size: 50%; /* Further adjust font size for smaller screens */
+        font-size: 50%;
     }
-    
+
     .header {
-        width: 100%; /* Full width header */
+        width: 100%;
     }
-    
 }
 
-/* Media query for screens up to 500px width */
 @media (max-width: 500px) {
     .home .content h3 {
-        font-size: 500%; /* Reduce font size by 500% for screens <= 500px */
+        font-size: 500%;
     }
 }
 
-/* Media query for screens up to 320px width */
 @media (max-width: 320px) {
     .home .content h3 {
-        font-size: 400%; /* Reduce font size by 400% for screens <= 320px */
+        font-size: 400%;
     }
 }
-
-/* MEDIA QUERIES ENDS */
