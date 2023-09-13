@@ -10,7 +10,6 @@ Welcome to my personal portfolio website repository. This website showcases my p
 - [Usage](#usage)
 - [Customization](#customization)
 - [Contributing](#contributing)
-- [License](#license)
 
 ## Introduction
 
