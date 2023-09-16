@@ -230,3 +230,40 @@ This CSS code is responsible for styling the "My Personal Portfolio" website. It
 ## Media Queries
 
 - Media queries for different screen sizes are defined to adjust font sizes and layout for better responsiveness.
+
+# JavaScript Code Documentation
+
+## Table of Contents
+
+- [JS Introduction](#js-introduction)
+- [Menu Button Functionality](#menu-button-functionality)
+- [Navigation Link Functionality](#navigation-link-functionality)
+- [Theme Toggler Functionality](#theme-toggler-functionality)
+- [Challenges Faced](#challenges-faced)
+
+## JS Introduction
+
+This JavaScript code adds interactivity and functionality to the "My Personal Portfolio" website. It handles the menu button, navigation links, and theme toggler.
+
+## Menu Button Functionality
+
+- The code selects the menu button element by its ID and the header element with the class 'header'.
+- It also selects all navigation links within elements having the classes 'navbar' and 'a' tag.
+- An event listener is added to the menu button, toggling the 'fa-times' class for menu icon animation and the 'active' class on the header element to show/hide the mobile menu.
+- The mobile menu is opened and closed when the menu button is clicked.
+
+## Navigation Link Functionality
+
+- The code adds click event listeners to all navigation links.
+- When a navigation link is clicked, it removes the 'fa-times' class to reset the menu button icon and removes the 'active' class to hide the mobile menu.
+- This ensures that the mobile menu closes when a navigation link is selected.
+
+## Theme Toggler Functionality
+
+- The theme toggler element is initialized.
+- The code checks if the user has a stored theme preference in localStorage.
+- The initial theme is set based on the user's preference (dark or light).
+- A click event listener is added to the theme toggler.
+- When clicked, it toggles the moon icon class, toggles the 'active' class on the document body to switch between dark and light themes.
+- The current theme preference is stored in localStorage, allowing the user's theme choice to persist across visits.
+
