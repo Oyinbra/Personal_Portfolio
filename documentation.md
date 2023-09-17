@@ -267,3 +267,16 @@ This JavaScript code adds interactivity and functionality to the "My Personal Po
 - When clicked, it toggles the moon icon class, toggles the 'active' class on the document body to switch between dark and light themes.
 - The current theme preference is stored in localStorage, allowing the user's theme choice to persist across visits.
 
+## Challenges Faced
+
+During the development of this project, several challenges were encountered and addressed:
+
+1. **Responsive Design**: Ensuring the website looks and functions well on various devices and screen sizes required careful consideration and testing.
+2. **LocalStorage Handling**: Implementing theme persistence using localStorage involved handling data storage and retrieval challenges.
+3. **Animation and User Experience**: Creating smooth animations for menu button and theme toggling while maintaining good user experience posed design and coding challenges.
+4. **Menu Button Closing**: Initially, the menu button did not close when clicked in mobile view. This issue was resolved by adding event listeners to navigation links to close the menu when a link is clicked.
+
+These challenges were overcome through careful planning, research, and iterative development, resulting in a functional and visually appealing portfolio website.
+
+# Conclusion
+This documentation provides an overview of the functionality, structure, and challenges faced during the development of the HTML, CSS and JavaScript code for my personal portfolio website.
