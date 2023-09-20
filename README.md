@@ -1,8 +1,10 @@
-# My Personal Portfolio Website
+# 🌐 My Personal Portfolio Website
 
 Welcome to my personal portfolio website repository. This website showcases my professional background, skills, services, and portfolio projects.
 
-## Table of Contents
+🔗 **Portfolio Link:** [VISIT MY PORTFOLIO](https://oyinbra.netlify.app)
+
+## 📜 Table of Contents
 
 - [Introduction](#introduction)
 - [Features](#features)
@@ -11,11 +13,11 @@ Welcome to my personal portfolio website repository. This website showcases my p
 - [Customization](#customization)
 - [Contributing](#contributing)
 
-## Introduction
+## 🚀 Introduction
 
 This repository contains the HTML, CSS, and JavaScript code for my personal portfolio website. It provides an overview of my work as a Software Engineer and allows visitors to learn more about me and my projects.
 
-## Features
+## ✨ Features
 
 - A clean and responsive design.
 - Sections for showcasing my profile, skills, services, portfolio, and contact information.
@@ -23,7 +25,7 @@ This repository contains the HTML, CSS, and JavaScript code for my personal port
 - JavaScript functionality for a hamburger menu and theme toggling.
 - A contact form with Netlify form integration.
 
-## Getting Started
+## 🛠️ Getting Started
 
 To view the website locally or deploy it, follow these steps:
 
@@ -37,11 +39,11 @@ git clone https://github.com/Oyinbra/Personal_Portfolio.git
 
 3. Open the `index.html` file in a web browser to view the website locally.
 
-## Usage
+## 💡 Usage
 
 You can use this code as a template for your own personal portfolio website. Customize the content, images, and styles to reflect your own profile and projects.
 
-## Customization
+## 🎨 Customization
 
 Feel free to customize the website to suit your preferences:
 
@@ -51,7 +53,7 @@ Feel free to customize the website to suit your preferences:
 - Showcase your projects by adding images and links in the "Portfolio" section.
 - Configure the contact form to work with your preferred backend or form submission method.
 
-## Contributing
+## 🤝 Contributing
 
 If you'd like to contribute to this project, please follow these steps:
 
