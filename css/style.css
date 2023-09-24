@@ -425,6 +425,7 @@ section {
     resize: none;
 }
 
+/* RESPONSIVE STYLING */
 /* MEDIA QUERY FOR SCREENS UP TO 991PX WIDTH */
 @media (max-width: 991px) {
     html {
