@@ -3,7 +3,7 @@
 
 /* DEFINE ROOT VARIABLES FOR CONSISTENT STYLING */
 :root {
-    --green: #27ae60;
+    --primary-color: #27ae60;
     --black: #fff;
     --light-color: #ddd;
     --bg-color: #222;
@@ -69,7 +69,7 @@ section {
 
 .btn:hover {
     box-shadow: var(--box-shadow-inset);
-    color: var(--green);
+    color: var(--primary-color);
 }
 
 /* HEADING STYLES */
@@ -82,7 +82,7 @@ section {
 }
 
 .heading span {
-    color: var(--green);
+    color: var(--primary-color);
     text-transform: uppercase;
 }
 
@@ -117,7 +117,7 @@ section {
 
 .header .user p {
     font-size: 1.5rem;
-    color: var(--green);
+    color: var(--primary-color);
 }
 
 /* STYLES FOR NAVIGATION LINKS IN THE HEADER */
@@ -155,7 +155,7 @@ section {
 }
 
 #menu-btn:hover {
-    color: var(--green);
+    color: var(--primary-color);
     box-shadow: var(--box-shadow-inset);
 }
 
@@ -177,7 +177,7 @@ section {
 }
 
 #theme-toggler:hover {
-    color: var(--green);
+    color: var(--primary-color);
     box-shadow: var(--box-shadow-inset);
 }
 
@@ -199,7 +199,7 @@ section {
 
 .home .content p {
     font-size: 2rem;
-    color: var(--green);
+    color: var(--primary-color);
     padding-bottom: 0.5rem;
 }
 
@@ -224,7 +224,7 @@ section {
 
 .home .share i:hover {
     box-shadow: var(--box-shadow-inset);
-    color: var(--green);
+    color: var(--primary-color);
 }
 
 /* STYLES FOR THE ROW CONTAINING ABOUT SECTION */
@@ -279,7 +279,7 @@ section {
 
 /* STYLES FOR THE SPAN ELEMENT WITHIN THE HEADINGS */
 .about .row .content h3 span {
-    color: var(--green);
+    color: var(--primary-color);
 }
 
 /* STYLES FOR PARAGRAPHS WITHIN THE CONTENT COLUMN */
@@ -334,7 +334,7 @@ section {
     position: absolute;
     top: 0; left: 0;
     height: 100%; width: 100%;
-    background: var(--green);
+    background: var(--primary-color);
     z-index: -1;
     clip-path: circle(9rem at 5% 0%);
     transition: 0.3s linear;
